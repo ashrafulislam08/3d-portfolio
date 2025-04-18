@@ -8,7 +8,7 @@ import gsap from "gsap";
 const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
-      "hero-text h1",
+      ".hero-text h1",
       {
         y: 50,
         opacity: 0,
